@@ -16,6 +16,9 @@ plotly = "^5.22.0"
 nbformat = "^5.10.4"
 sympy = "^1.13.1"
 
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
 
 [build-system]
 requires = ["poetry-core"]
